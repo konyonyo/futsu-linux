@@ -8,8 +8,6 @@
 static void do_cat(const int fd, const char* path);
 static void die(const char* s);
 
-#define BUFFER_SIZE 2048
-
 int main(int argc, char* argv[]){
     int i;
     int fd;
